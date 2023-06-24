@@ -52,22 +52,24 @@ button:focus-visible {
 
 body {
   margin: 0;
-  display: flex;
+  /*display: flex;*/
+  padding: 0;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  /*max-width: 1280px;*/
+  height: 100vh;
+  /*margin: 0 auto;*/
+  /*padding: 2rem;*/
   text-align: center;
 }
 
-.card {
-  padding: 2em;
-}
+/*.card {*/
+/*  padding: 2em;*/
+/*}*/
 
 @media (prefers-color-scheme: light) {
   :root {

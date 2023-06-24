@@ -1,6 +1,5 @@
 import { createApp } from 'vue'
 import './style.css'
-// @ts-expect-error 引入错误
 import App from '@/App.vue'
 import router from './router'
 import { createPinia } from 'pinia'
